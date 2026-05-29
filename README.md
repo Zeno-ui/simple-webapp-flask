@@ -127,6 +127,3 @@ python -m pytest tests/ -v --cov=notes_api --cov-report=term-missing
     tests/test_notes_api.py::test_delete_note_not_found      PASSED
     Coverage: 100%
 
-git add README.md
-git commit -m "Update README with API documentation"
-git push origin feature/notes-rest-api
